@@ -25,24 +25,25 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/@zoom/videosdk-ui-toolkit/dist/videosdk-ui-toolkit.css"
             ],
             "scripts": []
           },
           "configurations": {
             "production": {
               "budgets": [
-                {
-                  "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
-                },
-                {
-                  "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
-                }
-              ],
+  {
+    "type": "initial",
+    "maximumWarning": "5mb",
+    "maximumError": "5.5mb"
+  },
+  {
+    "type": "any",
+    "maximumWarning": "4mb",
+    "maximumError": "5mb"
+  }
+],
               "outputHashing": "all"
             },
             "development": {
@@ -84,7 +85,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/@zoom/videosdk-ui-toolkit/dist/videosdk-ui-toolkit.css"
             ],
             "scripts": []
           }

@@ -1,0 +1,59 @@
+<div class="main-container">
+    <!-- Left pane: Problem description -->
+    <div class="left-pane">
+      <header>
+        <h1>Two Sum Problem</h1>
+        <p><strong>Difficulty:</strong> Easy</p>
+      </header>
+  
+      <section class="problem-description">
+        <h2>Problem Statement</h2>
+        <p>Given an array of integers <code>nums</code> and an integer <code>target</code>, return indices of the two numbers such that they add up to <code>target</code>.</p>
+        <p>You may assume that each input would have exactly one solution, and you may not use the same element twice.</p>
+        <p>You can return the answer in any order.</p>
+      </section>
+  
+      <section class="example-section">
+        <h2>Example 1</h2>
+        <div class="example">
+          <pre>
+  <strong>Input:</strong> nums = [2,7,11,15], target = 9
+  <strong>Output:</strong> [0,1]
+  <strong>Explanation:</strong> Because nums[0] + nums[1] == 9, we return [0, 1].
+          </pre>
+        </div>
+  
+        <h2>Example 2</h2>
+        <div class="example">
+          <pre>
+  <strong>Input:</strong> nums = [3,2,4], target = 6
+  <strong>Output:</strong> [1,2]
+          </pre>
+        </div>
+      </section>
+  
+      <section class="constraints">
+        <h2>Constraints</h2>
+        <ul>
+          <li><code>2 ≤ nums.length ≤ 10<sup>4</sup></code></li>
+          <li><code>-10<sup>9</sup> ≤ nums[i] ≤ 10<sup>9</sup></code></li>
+          <li><code>-10<sup>9</sup> ≤ target ≤ 10<sup>9</sup></code></li>
+        </ul>
+      </section>
+    </div>
+  
+    <!-- Right pane: Coding and results section -->
+    <div class="right-pane">
+      <section class="coding-section">
+        <h2>Code Here</h2>
+        <textarea [(ngModel)]="code" placeholder="Write your code here..."></textarea>
+        <button (click)="runCode()">Run Code</button>
+      </section>
+  
+      <section class="output-section">
+        <h2>Results</h2>
+        <pre>{{ output }}</pre>
+      </section>
+    </div>
+  </div>
+  

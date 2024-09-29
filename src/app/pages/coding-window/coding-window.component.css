@@ -1,0 +1,91 @@
+.task-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ece9e9;
+    padding: 1rem;
+}
+h2{
+    margin: 0;
+}
+.left, button, .middle{
+    display: flex;
+    grid-gap: 5px;
+}
+button{
+    height: 1.7rem;
+}
+p{
+    margin: 0;
+    margin-top: 5px;
+}
+.code-section{
+    display: flex; 
+}
+.problem, .code{
+    width: 50%;
+}
+
+.code-max {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .code {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .dialog-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .dialog-box {
+    background: white;
+    padding: 20px;
+    width: 40%;
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dialog-actions{
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .dialog-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+  .pop-up-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .pop-up-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error{
+    color: red;
+  }
+  :host .self-view{
+    width: 0 !important;
+  }
